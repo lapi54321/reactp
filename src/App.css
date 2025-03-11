@@ -1,0 +1,73 @@
+.App {
+  text-align: center;
+  background-color: pink;
+}
+
+form {
+  margin: 20px 0;
+}
+
+input[type='text'] {
+  padding: 10px;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  background-color: blue;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darkblue;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+  padding: 10px;
+  background-color: white;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+li input[type='checkbox'] {
+  margin-right: 10px;
+}
+
+li button {
+  background-color: red;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+li button:hover {
+  background-color: darkred;
+}
+
+.task-bar {
+  display: flex;
+  flex-direction: column;
+  width: 20px;
+  height: 200px;
+  margin: 20px auto;
+  border: 1px solid black;
+}
+
+.completed {
+  background-color: green;
+}
+
+.remaining {
+  background-color: gray;
+}
